@@ -50,7 +50,6 @@ public class DataGenerator
 
         using (var context = new FruitContext(options))
         {
-            // Look for any board games.
             if (context.Fruit.Any())
             {
                 return;   // Data was already seeded
