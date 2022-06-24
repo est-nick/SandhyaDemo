@@ -14,5 +14,10 @@ namespace SandhyaDemo.DbModels
         public string Name { get; set; }
 
         public string Type { get; set; }
+
+        public string UniqueFruitRef 
+        { 
+            get { return Name + "0000" + Id; }
+        }
     }
 }

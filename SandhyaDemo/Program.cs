@@ -58,7 +58,7 @@ public class DataGenerator
 
             context.Fruit.AddRange(
                 new Fruit
-                {                   
+                {
                     Id = 1,
                     Name = "Orange",
                     Type = "A"
@@ -85,7 +85,7 @@ public class DataGenerator
                 {
                     Id = 5,
                     Name = "Kiwi",
-                    Type = "A"
+                    Type = "A",
                 });
 
             context.SaveChanges();
